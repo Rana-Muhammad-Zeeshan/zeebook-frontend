@@ -1,0 +1,24 @@
+.input_wrap {
+  position: relative;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input_wrap input {
+  outline: none;
+  border: 1px solid var(--bg-third);
+  background: var(--bg-primary);
+  width: 100%;
+  height: 50px;
+  font-size: 1.06rem;
+  border-radius: 0.62rem;
+  padding-left: 0.62rem;
+  margin-bottom: 0.62rem;
+  color: var(--color-primary);
+}
+
+.input_wrap input::placeholder {
+  opacity: 0.75;
+}
