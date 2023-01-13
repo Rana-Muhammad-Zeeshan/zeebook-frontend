@@ -18,6 +18,7 @@ a {
   --bg-secondary: #f0f2f5;
   --bg-third: #e4e6eb;
   --bg-forth: #f0f2f5;
+  --bg-error: #b94a48;
   --color-primary: #050505;
   --color-secondary: #65676b;
   --divider: #ced0d4;
@@ -30,6 +31,7 @@ a {
   --green-color: #42b72a;
   --light-blue-color: #e7f3ff;
   --border-color: #ccced2;
+  --border-color-error: #b94a48;
   --shadow-1: rgba(0, 0, 0, 0.2);
   --shadow-2: rgba(0, 0, 0, 0.1);
   --shadow-3: rgba(0, 0, 0, 0.3);
