@@ -19,6 +19,7 @@ a {
   --bg-third: #e4e6eb;
   --bg-forth: #f0f2f5;
   --bg-error: #b94a48;
+  --bg-notification: #e41e3f;
   --color-primary: #050505;
   --color-secondary: #65676b;
   --divider: #ced0d4;
@@ -73,3 +74,26 @@ a {
   background: rgba(255, 255, 255, 0.768);
   z-index: 90;
 }
+
+/* hover */
+.hover1:hover {
+  background: var(--bg-secondary);
+}
+
+.hover2:hover {
+  background: var(--bg-secondary);
+}
+/* hover */
+
+/* Active */
+.active {
+  border-bottom: 3px solid var(--blue-color);
+  border-radius: 0 !important;
+  height: 56px;
+  transform: translateX(0) !important;
+}
+
+.active svg {
+  transform: translateY(1px) translateX(-1px);
+}
+/* Active */
